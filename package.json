@@ -13,6 +13,7 @@
 		"typegen": "wrangler types",
 		"preview": "pnpm run build && wrangler dev",
 		"cf-typegen": "wrangler types",
+		"migrate": "pnpm wrangler d1 migrations apply smail --remote",
 		"format": "pnpm biome format --write ."
 	},
 	"dependencies": {
@@ -69,7 +70,7 @@
 		"typescript": "^5.6.3",
 		"vite": "^5.4.9",
 		"vite-tsconfig-paths": "^5.0.1",
-		"wrangler": "3.80.5"
+		"wrangler": "4.4.0"
 	},
 	"engines": {
 		"node": ">=20.0.0"
