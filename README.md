@@ -15,6 +15,8 @@
   <p>Use cloudflare worker to quickly build a temporary email service<p>
 </div>
 
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/wuyangwang/smail)
+
 # Smail 📨
 - 📁Use cloudflare email worker to receive emails
 - 🖼Provide web application
